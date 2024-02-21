@@ -2,17 +2,17 @@
   "name": "ebac_talks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "parcel src/scripts/main.js src/index.html src/styles/main.scss",
+    "dev": "parcel src/index.html src/scripts/main.js src/styles/main.scss --no-cache",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.11.0",
-    "parcel": "^2.11.0",
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
     "sharp": "^0.31.3"
   }
 }
